@@ -1,14 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link href="./src/output.css" rel="stylesheet" />
 
     <title>NT Soluções | Álvaro Neto</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    Teste
+    <header class="flex justify-center shadow-header py-2 sm:py-4">
+      <nav class="flex justify-between items-center px-6 sm:w-512">
+        <div class="flex justify-center items-center w-auto gap-2">
+          <img
+            src="./src/assets/images/logo/Logo Vetor.svg"
+            alt="Logo da NT Soluções"
+            class="w-4 sm:w-8"
+          />
+          <p class="font-Inter font-bold text-sm sm:text-3xl">
+            Álvaro <span class="text-color-primary-blue">N</span>eto
+          </p>
+        </div>
+        <ul
+          class="hidden sm:flex justify-around items-center gap-2.5 text-base font-medium text-text-color-nav"
+        >
+          <li
+            class="px-4 py-2 rounded-md hover:bg-color-secondary-blue hover:text-white cursor-pointer"
+          >
+            Home
+          </li>
+          <li
+            class="px-4 py-2 rounded-md hover:bg-color-secondary-blue hover:text-white cursor-pointer"
+          >
+            Sobre
+          </li>
+          <li
+            class="px-4 py-2 rounded-md hover:bg-color-secondary-blue hover:text-white cursor-pointer"
+          >
+            Projetos
+          </li>
+          <li
+            class="px-4 py-2 rounded-md hover:bg-color-secondary-blue hover:text-white cursor-pointer"
+          >
+            Contato
+          </li>
+        </ul>
+      </nav>
+    </header>
   </body>
 </html>
