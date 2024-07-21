@@ -17,6 +17,7 @@ module.exports = {
         "text-color-primary": "#132238",
         "text-color-secondary": "#556070",
         "text-color-tertiary": "#87909d",
+        "text-color-quarter": "#424E60",
         "color-primary-blue": "#325a73",
         "color-secondary-blue": "#2daae1",
         "color-tertiary-blue": "#2bb9d9",
@@ -25,7 +26,8 @@ module.exports = {
         512: "55rem",
       },
       screens: {
-        xs: { min: "520px" },
+        xs: { min: "375px" },
+        photo: { min: "920px" },
       },
     },
   },

@@ -17,7 +17,10 @@
     />
   </head>
   <body>
-    <header class="flex justify-center shadow-header py-2 sm:py-4">
+    <!-- Barra de navegação  -->
+    <header
+      class="fixed w-full z-50 flex justify-center shadow-header py-2 sm:py-4 bg-white"
+    >
       <nav class="flex justify-between items-center px-6 sm:w-512">
         <div class="flex justify-center items-center w-auto gap-2">
           <img
@@ -48,12 +51,91 @@
             Projetos
           </li>
           <li
-            class="px-4 py-2 rounded-md hover:bg-color-secondary-blue hover:text-white cursor-pointer"
+            class="px-4 py-2 rounded-md hover:bg-color-secondary-blue hover:text-white hover:font-semibold cursor-pointer"
           >
             Contato
           </li>
         </ul>
       </nav>
     </header>
+
+    <!-- Conteúdo principal da página -->
+    <main class="flex justify-center bg-white">
+      <!-- Seção principal -->
+      <section
+        id="header"
+        class="mt-14 w-[358px] sm:mt-32 sm:max-w-[1400px] sm:flex sm:flex-row sm:items-center sm:justify-center sm:gap-12"
+      >
+        <!-- Div Esquerda - Texto -->
+        <div class="flex flex-col gap-5 sm:gap-14 photo:gap-36 sm:w-[654px]">
+          <!-- Div dos textos até o botão CONHEÇA -->
+          <div class="flex flex-col items-start gap-3 sm:gap-4 photo:gap-6">
+            <h1
+              class="text-4xl text-text-color-primary font-semibold leading-10 sm:text-6xl"
+            >
+              Olá, Eu me chamo<br />
+              <span class="text-color-primary-blue">Álvaro Neto</span>
+            </h1>
+            <p class="text-justify text-text-color-secondary text-xs">
+              Sou Desenvolvedor Full Stack moro em Brasília, Brasil. Eu me
+              empenho para construir aplicativos da web atraentes e sistemas e
+              soluções intuitivas por meio de código cuidadosamente elaborado e
+              design centrado no usuário.
+            </p>
+            <button
+              class="px-3 py-1 rounded bg-color-primary-blue text-white text-[10px] border-none"
+            >
+              Conheça
+            </button>
+          </div>
+
+          <div class="flex items-center justify-around gap-1">
+            <div
+              class="flex flex-col items-center justify-center gap-1 bg-color-tertiary-blue rounded w-40 h-14"
+            >
+              <p
+                class="text-text-color-quarter text-lg font-semibold leading-5 text-nowrap"
+              >
+                15 Anos
+              </p>
+              <p class="text-slate-600 text-[9px] text-nowrap">Experiência</p>
+            </div>
+            <div
+              class="flex flex-col items-center justify-center gap-1 bg-color-tertiary-blue rounded w-40 h-14"
+            >
+              <p
+                class="text-text-color-quarter text-lg font-semibold leading-5 text-nowrap"
+              >
+                56+
+              </p>
+              <p class="text-slate-600 text-[9px] text-nowrap">
+                Projetos Finalizados
+              </p>
+            </div>
+            <div
+              class="flex flex-col items-center justify-center gap-1 bg-color-tertiary-blue rounded w-40 h-14"
+            >
+              <p
+                class="text-text-color-quarter text-lg font-semibold leading-5 text-nowrap"
+              >
+                38
+              </p>
+              <p class="text-slate-600 text-[9px] text-nowrap">
+                Clientes Parceiros
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Div da direita - Imagem -->
+        <div class="hidden photo:flex photo:flex-col">
+          <img
+            src="./src/assets/images/images/foto-01.jpeg"
+            alt="Foto do Álvaro Neto"
+            class="max-w-96 bg-cover rounded-3xl"
+          />
+        </div>
+      </section>
+    </main>
   </body>
 </html>
