@@ -9,6 +9,7 @@ module.exports = {
       },
       boxShadow: {
         header: "0px 4px 4px 0px rgba(0, 0, 0, 0.25);",
+        about: "0px 27px 78.75px 0px rgba(43, 56, 76, 0.10);",
       },
       colors: {
         "color-white": "#fff",
