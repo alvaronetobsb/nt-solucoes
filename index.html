@@ -289,11 +289,11 @@
       </section>
 
       <!-- Seção da trajetória -->
-      <section id="trajetoria" class="mt-4 p-0 bg-color-gray w-auto">
+      <section id="trajetoria" class="mt-4 pb-16 bg-color-gray w-full">
         <!-- Container -->
-        <div class="flex flex-col items-center justify-center gap-36 p-20">
+        <div class="flex flex-col items-center justify-center gap-16 photo:gap-28 p-20">
           <h2
-            class="text-text-color-primary font-semibold text-2xl self-center sm:text-3xl lg:text-4xl"
+            class="text-text-color-primary font-semibold text-2xl self-center photo:text-3xl lg:text-4xl"
           >
             Trajetória
           </h2>
@@ -305,52 +305,59 @@
               <img
                 src="./src/assets/images/icons/Arrow-trajetoria.png"
                 alt=""
+                class="hidden photo:block w-auto"
+              />
+
+              <img
+                src="./src/assets/images/icons/Arrow-trajetoria-baixo.png"
+                alt=""
+                class="photo:hidden w-2/3"
               />
               <!-- Icones das empresas -->
               <div
-                class="absolute -top-7 flex justify-between w-full px-14 gap-7 text-text-color-primary font-semibold text-sm"
+                class="absolute top-10 -left-5 photo:-top-7 flex flex-col photo:flex-row photo:justify-between gap-5 photo:w-full photo:px-10 photo:gap-7 text-text-color-primary font-semibold text-sm"
               >
-                <div class="flex flex-col gap-4 items-center">
+                <div class="flex gap-3 items-center photo:flex-col photo:gap-4 photo:items-center">
                   <img
                     src="./src/assets/images/icons/ipe-codeplan_df_logo.jpeg"
                     alt=""
-                    class="rounded-full h-20 border-color-primary-blue border-4"
+                    class="rounded-full h-14 photo:h-20 border-color-primary-blue border-4"
                   />
-                  <p class="text-center">IPEDF (Codeplan)<br />2004 - 2007</p>
+                  <p class="text-left photo:text-center text-nowrap text-xs photo:text-base">IPEDF (Codeplan)<br />Suporte técnico<br />2004 - 2007</p>
                 </div>
-                <div class="flex flex-col gap-4 items-center">
+                <div class="flex gap-3 items-center photo:flex-col photo:gap-4 photo:items-center">
                   <img
                     src="./src/assets/images/icons/ctis_logo.jpeg"
                     alt=""
-                    class="rounded-full h-20 border-color-primary-blue border-4"
+                    class="rounded-full h-14 photo:h-20 border-color-primary-blue border-4"
                   />
-                  <p class="text-center">CTIS <br />2009 - 2009</p>
+                  <p class="text-left photo:text-center text-nowrap text-xs photo:text-base">CTIS <br />Desenvolvedor <br class="hidden photo:block"/>de software<br />2009 - 2009</p>
                 </div>
-                <div class="flex flex-col gap-4 items-center">
+                <div class="flex gap-3 items-center photo:flex-col photo:gap-4 photo:items-center">
                   <img
                     src="./src/assets/images/icons/cadegovbr_logo.jpeg"
                     alt=""
-                    class="rounded-full h-20 border-color-primary-blue border-4"
+                    class="rounded-full h-14 photo:h-20 border-color-primary-blue border-4"
                   />
-                  <p class="text-center">CADE <br />2009 - 2010</p>
+                  <p class="text-left photo:text-center text-nowrap text-xs photo:text-base">CADE <br />Programador <br class="hidden photo:block"/>de software<br />2009 - 2010</p>
                 </div>
-                <div class="flex flex-col gap-4 items-center">
+                <div class="flex gap-3 items-center photo:flex-col photo:gap-4 photo:items-center">
                   <img
                     src="./src/assets/images/icons/ministeriodasaude_logo.jpeg"
                     alt=""
-                    class="rounded-full h-20 border-color-primary-blue border-4"
+                    class="rounded-full h-14 photo:h-20 border-color-primary-blue border-4"
                   />
-                  <p class="text-center">
-                    Ministério da Saúde <br />2010 - 2012
+                  <p class="text-left photo:text-center text-nowrap text-xs photo:text-base">
+                    Ministério da Saúde <br />Servidor público<br />2010 - 2012
                   </p>
                 </div>
-                <div class="flex flex-col gap-4 items-center">
+                <div class="flex gap-3 items-center photo:flex-col photo:gap-4 photo:items-center">
                   <img
                     src="./src/assets/images/icons/cgu-logo.jpeg"
                     alt=""
-                    class="rounded-full h-20 border-color-primary-blue border-4"
+                    class="rounded-full h-14 photo:h-20 border-color-primary-blue border-4"
                   />
-                  <p class="text-center">CGU <br />2012...</p>
+                  <p class="text-left photo:text-center text-nowrap text-xs photo:text-base">CGU <br />Servidor público<br />2012...</p>
                 </div>
               </div>
             </div>
