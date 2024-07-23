@@ -21,10 +21,10 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body">
     <!-- Barra de navegação  -->
     <header
-      class="fixed w-full z-50 flex justify-center shadow-header py-2 sm:py-4 bg-white"
+      class="fixed w-full z-50 flex justify-center items-center shadow-header py-2 sm:py-4 bg-white"
     >
       <!-- container de navegação  -->
       <nav class="flex justify-between items-center px-6 sm:w-512">
@@ -42,7 +42,7 @@
 
         <!-- Menu de navegação -->
         <ul
-          class="hidden sm:flex justify-around items-center gap-2.5 sm:text-base photo:text-lg font-medium text-text-color-nav"
+          class="hidden sm:flex justify-between items-center gap-2.5 sm:text-base photo:text-lg font-medium text-text-color-nav"
         >
           <a href="#"
             ><li
@@ -283,6 +283,76 @@
               >
                 Contato
               </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seção da trajetória -->
+      <section id="trajetoria" class="mt-4 p-0 bg-color-gray w-auto">
+        <!-- Container -->
+        <div class="flex flex-col items-center justify-center gap-36 p-20">
+          <h2
+            class="text-text-color-primary font-semibold text-2xl self-center sm:text-3xl lg:text-4xl"
+          >
+            Trajetória
+          </h2>
+
+          <!-- Gráfico da trajetória -->
+          <div class="mb-8">
+            <div class="relative">
+              <!-- Seta -->
+              <img
+                src="./src/assets/images/icons/Arrow-trajetoria.png"
+                alt=""
+              />
+              <!-- Icones das empresas -->
+              <div
+                class="absolute -top-7 flex justify-between w-full px-14 gap-7 text-text-color-primary font-semibold text-sm"
+              >
+                <div class="flex flex-col gap-4 items-center">
+                  <img
+                    src="./src/assets/images/icons/ipe-codeplan_df_logo.jpeg"
+                    alt=""
+                    class="rounded-full h-20 border-color-primary-blue border-4"
+                  />
+                  <p class="text-center">IPEDF (Codeplan)<br />2004 - 2007</p>
+                </div>
+                <div class="flex flex-col gap-4 items-center">
+                  <img
+                    src="./src/assets/images/icons/ctis_logo.jpeg"
+                    alt=""
+                    class="rounded-full h-20 border-color-primary-blue border-4"
+                  />
+                  <p class="text-center">CTIS <br />2009 - 2009</p>
+                </div>
+                <div class="flex flex-col gap-4 items-center">
+                  <img
+                    src="./src/assets/images/icons/cadegovbr_logo.jpeg"
+                    alt=""
+                    class="rounded-full h-20 border-color-primary-blue border-4"
+                  />
+                  <p class="text-center">CADE <br />2009 - 2010</p>
+                </div>
+                <div class="flex flex-col gap-4 items-center">
+                  <img
+                    src="./src/assets/images/icons/ministeriodasaude_logo.jpeg"
+                    alt=""
+                    class="rounded-full h-20 border-color-primary-blue border-4"
+                  />
+                  <p class="text-center">
+                    Ministério da Saúde <br />2010 - 2012
+                  </p>
+                </div>
+                <div class="flex flex-col gap-4 items-center">
+                  <img
+                    src="./src/assets/images/icons/cgu-logo.jpeg"
+                    alt=""
+                    class="rounded-full h-20 border-color-primary-blue border-4"
+                  />
+                  <p class="text-center">CGU <br />2012...</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
