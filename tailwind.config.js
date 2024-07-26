@@ -10,7 +10,9 @@ module.exports = {
       boxShadow: {
         header: "0px 4px 4px 0px rgba(0, 0, 0, 0.25);",
         about: "0px 27px 78.75px 0px rgba(43, 56, 76, 0.10);",
-        cards: "box-shadow: 0px 23.963px 71.889px 0px rgba(28, 25, 25, 0.16);",
+        cards: "0px 23.963px 71.889px 0px rgba(28, 25, 25, 0.16);",
+        contactCards: "0px 8.986px 47.926px 0px rgba(28, 25, 25, 0.12);",
+        contact: "0px 44.182px 92.856px 0px rgba(0, 0, 0, 0.12);",
       },
       colors: {
         "color-white": "#fff",
@@ -23,6 +25,7 @@ module.exports = {
         "color-primary-blue": "#325a73",
         "color-secondary-blue": "#2daae1",
         "color-tertiary-blue": "#2bb9d9",
+        "bg-card": "rgba(237, 216, 255, 0.50);",
       },
       width: {
         512: "55rem",
