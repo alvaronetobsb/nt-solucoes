@@ -34,6 +34,34 @@ module.exports = {
         xs: { min: "375px" },
         photo: { min: "920px" },
       },
+      keyframes: {
+        slideDownNav: {
+          "0%": { transform: "translateY(-100px)", opacity: "0"},
+          "100%": { transform: "translateY(0px)", opacity: "1" }
+        },
+
+        slideUp: {
+          "0%": { transform: "translateY(25px)", opacity: "0"},
+          "100%": { transform: "translateY(0px)", opacity: "1" }
+        },
+
+        scaleBox: {
+          "0%": { transform: "scale(80%)", opacity: "0"},
+          // "90%": { transform: "scale(110%)"},
+          // "95%": { transform: "scale(90%)"},
+          "100%": { transform: "scale(100%)", opacity: "1"}
+        }
+
+      },
+      animation: {
+        "slide-down-nav": "slideDownNav .3s ease",
+        "slide-up-2": "slideUp .2s ease both",
+        "slide-up-4": "slideUp .2s ease .1s both",
+        "slide-up-6": "slideUp .2s ease .2s both",
+        "scale-box-1": "scaleBox .3s ease both",
+        "scale-box-2": "scaleBox .3s ease .1s both",
+        "scale-box-3": "scaleBox .3s ease .2s both",
+      }
     },
   },
   plugins: [],
